@@ -24,6 +24,7 @@ class App extends Component {
     console.log(this.state)
     return (
       <div>
+        <h1>My App</h1>
         <p>Temp: {this.state.name} </p>
         <p>Name: {this.state.display}</p>
         <input onChange= {(event) => this.changeName (event)} placeholder='Enter Name Here'/>
@@ -33,7 +34,7 @@ class App extends Component {
         
       </div>
     );
-  }
+  };;
 }
 
 export default App;
